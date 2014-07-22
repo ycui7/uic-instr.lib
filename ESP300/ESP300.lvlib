@@ -14,47 +14,47 @@ Yang Cui, University of Illinois at Chicago, 2013 (C) Copyright</Property>
 
 </Property>
 	<Item Name="Example" Type="Folder">
-		<Item Name="ESP30xCore.vi" Type="VI" URL="../ESP30xCore.vi"/>
+		<Item Name="ESP30xCore.vi" Type="VI" URL="/&lt;instrlib&gt;/ESP300/ESP30xCore.vi"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Default Instrument Setup.vi" Type="VI" URL="../Private/Default Instrument Setup.vi"/>
-		<Item Name="VISA_Write+Read.vi" Type="VI" URL="../Private/VISA_Write+Read.vi"/>
-		<Item Name="ErrorPopup.vi" Type="VI" URL="../Private/ErrorPopup.vi"/>
+		<Item Name="Default Instrument Setup.vi" Type="VI" URL="/&lt;instrlib&gt;/ESP300/Private/Default Instrument Setup.vi"/>
+		<Item Name="VISA_Write+Read.vi" Type="VI" URL="/&lt;instrlib&gt;/ESP300/Private/VISA_Write+Read.vi"/>
+		<Item Name="ErrorPopup.vi" Type="VI" URL="/&lt;instrlib&gt;/ESP300/Private/ErrorPopup.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Action-Status" Type="Folder">
-			<Item Name="MoveAbs_all.vi" Type="VI" URL="../Public/Action-Status/MoveAbs_all.vi"/>
-			<Item Name="Update_all.vi" Type="VI" URL="../Public/Action-Status/Update_all.vi"/>
-			<Item Name="Update_xPos.vi" Type="VI" URL="../Public/Action-Status/Update_xPos.vi"/>
-			<Item Name="SetAcceleration.vi" Type="VI" URL="../Public/Action-Status/SetAcceleration.vi"/>
-			<Item Name="SetVelocity.vi" Type="VI" URL="../Public/Action-Status/SetVelocity.vi"/>
-			<Item Name="MoveRef.vi" Type="VI" URL="../Public/Action-Status/MoveRef.vi"/>
-			<Item Name="OriginSearch.vi" Type="VI" URL="../Public/Action-Status/OriginSearch.vi"/>
-			<Item Name="MotorOnOff.vi" Type="VI" URL="../Public/Action-Status/MotorOnOff.vi"/>
-			<Item Name="MoveAbs.vi" Type="VI" URL="../Public/Action-Status/MoveAbs.vi"/>
-			<Item Name="MoveRel_all.vi" Type="VI" URL="../Public/Action-Status/MoveRel_all.vi"/>
-			<Item Name="WaitStop.vi" Type="VI" URL="../Public/Action-Status/WaitStop.vi"/>
-			<Item Name="JoystickMove.vi" Type="VI" URL="../Public/Action-Status/JoystickMove.vi"/>
+			<Item Name="MoveAbs_all.vi" Type="VI" URL="/&lt;instrlib&gt;/ESP300/Public/Action-Status/MoveAbs_all.vi"/>
+			<Item Name="Update_all.vi" Type="VI" URL="/&lt;instrlib&gt;/ESP300/Public/Action-Status/Update_all.vi"/>
+			<Item Name="Update_xPos.vi" Type="VI" URL="/&lt;instrlib&gt;/ESP300/Public/Action-Status/Update_xPos.vi"/>
+			<Item Name="SetAcceleration.vi" Type="VI" URL="/&lt;instrlib&gt;/ESP300/Public/Action-Status/SetAcceleration.vi"/>
+			<Item Name="SetVelocity.vi" Type="VI" URL="/&lt;instrlib&gt;/ESP300/Public/Action-Status/SetVelocity.vi"/>
+			<Item Name="MoveRef.vi" Type="VI" URL="/&lt;instrlib&gt;/ESP300/Public/Action-Status/MoveRef.vi"/>
+			<Item Name="OriginSearch.vi" Type="VI" URL="/&lt;instrlib&gt;/ESP300/Public/Action-Status/OriginSearch.vi"/>
+			<Item Name="MotorOnOff.vi" Type="VI" URL="/&lt;instrlib&gt;/ESP300/Public/Action-Status/MotorOnOff.vi"/>
+			<Item Name="MoveAbs.vi" Type="VI" URL="/&lt;instrlib&gt;/ESP300/Public/Action-Status/MoveAbs.vi"/>
+			<Item Name="MoveRel_all.vi" Type="VI" URL="/&lt;instrlib&gt;/ESP300/Public/Action-Status/MoveRel_all.vi"/>
+			<Item Name="WaitStop.vi" Type="VI" URL="/&lt;instrlib&gt;/ESP300/Public/Action-Status/WaitStop.vi"/>
+			<Item Name="JoystickMove.vi" Type="VI" URL="/&lt;instrlib&gt;/ESP300/Public/Action-Status/JoystickMove.vi"/>
 		</Item>
 		<Item Name="Configure" Type="Folder"/>
 		<Item Name="Data" Type="Folder">
-			<Item Name="ESP300_State.ctl" Type="VI" URL="../Public/Data/ESP300_State.ctl"/>
-			<Item Name="ESP30x_Data.ctl" Type="VI" URL="../Public/Data/ESP30x_Data.ctl"/>
+			<Item Name="ESP300_State.ctl" Type="VI" URL="/&lt;instrlib&gt;/ESP300/Public/Data/ESP300_State.ctl"/>
+			<Item Name="ESP30x_Data.ctl" Type="VI" URL="/&lt;instrlib&gt;/ESP300/Public/Data/ESP30x_Data.ctl"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
-			<Item Name="Utility.mnu" Type="Document" URL="../Public/Utility/Utility.mnu"/>
-			<Item Name="Error Query.vi" Type="VI" URL="../Public/Utility/Error Query.vi"/>
-			<Item Name="Reset.vi" Type="VI" URL="../Public/Utility/Reset.vi"/>
-			<Item Name="Revision Query.vi" Type="VI" URL="../Public/Utility/Revision Query.vi"/>
-			<Item Name="Self-Test.vi" Type="VI" URL="../Public/Utility/Self-Test.vi"/>
+			<Item Name="Utility.mnu" Type="Document" URL="/&lt;instrlib&gt;/ESP300/Public/Utility/Utility.mnu"/>
+			<Item Name="Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/ESP300/Public/Utility/Error Query.vi"/>
+			<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/ESP300/Public/Utility/Reset.vi"/>
+			<Item Name="Revision Query.vi" Type="VI" URL="/&lt;instrlib&gt;/ESP300/Public/Utility/Revision Query.vi"/>
+			<Item Name="Self-Test.vi" Type="VI" URL="/&lt;instrlib&gt;/ESP300/Public/Utility/Self-Test.vi"/>
 		</Item>
-		<Item Name="Close.vi" Type="VI" URL="../Public/Close.vi"/>
-		<Item Name="Initialize.vi" Type="VI" URL="../Public/Initialize.vi"/>
-		<Item Name="VI Tree.vi" Type="VI" URL="../Public/VI Tree.vi"/>
-		<Item Name="Position_ESP300.vi" Type="VI" URL="../Public/Position_ESP300.vi"/>
+		<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/ESP300/Public/Close.vi"/>
+		<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/ESP300/Public/Initialize.vi"/>
+		<Item Name="VI Tree.vi" Type="VI" URL="/&lt;instrlib&gt;/ESP300/Public/VI Tree.vi"/>
+		<Item Name="Position_ESP300.vi" Type="VI" URL="/&lt;instrlib&gt;/ESP300/Public/Position_ESP300.vi"/>
 	</Item>
 </Library>

@@ -12,7 +12,7 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Default Instrument Setup.vi" Type="VI" URL="../Private/Default Instrument Setup.vi"/>
+		<Item Name="Default Instrument Setup.vi" Type="VI" URL="/&lt;instrlib&gt;/Surelite I/Private/Default Instrument Setup.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
@@ -35,14 +35,14 @@
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Utility.mnu" Type="Document" URL="/&lt;instrlib&gt;/Surelite I/Public/Utility/Utility.mnu"/>
 			<Item Name="Error Query.vi" Type="VI" URL="../Public/Utility/Error Query.vi"/>
-			<Item Name="Reset.vi" Type="VI" URL="../Public/Utility/Reset.vi"/>
-			<Item Name="Revision Query.vi" Type="VI" URL="../Public/Utility/Revision Query.vi"/>
-			<Item Name="Self-Test.vi" Type="VI" URL="../Public/Utility/Self-Test.vi"/>
+			<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/Surelite I/Public/Utility/Reset.vi"/>
+			<Item Name="Revision Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Surelite I/Public/Utility/Revision Query.vi"/>
+			<Item Name="Self-Test.vi" Type="VI" URL="/&lt;instrlib&gt;/Surelite I/Public/Utility/Self-Test.vi"/>
 		</Item>
-		<Item Name="dir.mnu" Type="Document" URL="../Public/dir.mnu"/>
+		<Item Name="dir.mnu" Type="Document" URL="/&lt;instrlib&gt;/Surelite I/Public/dir.mnu"/>
 		<Item Name="Close.vi" Type="VI" URL="../Public/Close.vi"/>
 		<Item Name="Initialize.vi" Type="VI" URL="../Public/Initialize.vi"/>
-		<Item Name="VI Tree.vi" Type="VI" URL="../Public/VI Tree.vi"/>
+		<Item Name="VI Tree.vi" Type="VI" URL="/&lt;instrlib&gt;/Surelite I/Public/VI Tree.vi"/>
 	</Item>
 	<Item Name="TestExample.vi" Type="VI" URL="../Public/TestExample.vi"/>
 </Library>
