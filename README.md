@@ -1,7 +1,7 @@
 uic-instr.lib
 =============
 
-You need to sync this folder to you "<labview installation folder>\instr.lib\". Then, LabVIEW will find these dependencies by itself. 
+You need to sync this folder to you labview installation folder\instr.lib\. Then, LabVIEW will find these dependencies by itself. 
 
 
 =============
