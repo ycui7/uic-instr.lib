@@ -1,13 +1,13 @@
 uic-instr.lib
 =============
 
-This is a collection of various instrument driver I wrote in the past. These are part of the dependancies of my other software. The library is licensed under GPLv2. 
+This is a collection of various instrument drivers I wrote in the past. These are part of the dependencies of my other software. The library is licensed under LGPL v3. 
 
 Provided AS IS, use with you own risk.
 
 The main reason to re-write all these driver is mainly to circumvent the limitation of vendor's driver. 
 
-The implementation mostly like is no complete, because I do not have the time to finish them. They are just made good enough to support all the features I needed. 
+The implementation most likely is not complete, because I do not have the time to make them a full library. They are made just good enough to support all the features I needed in my other software. 
 
 Features:
 
@@ -22,7 +22,7 @@ PI Micos (VENUS-1) driver:
 ESP30x
 
 1. Support ESP300 and ESP301 controllers, made by Newport.
-2. Derived from PI Micos drvier, most features in PI Micos are supported.
+2. Derived from PI Micos driver, most features in PI Micos are supported.
 2. Position update rate limited to ~20 Hz for fast refresh axis (19200 bps RS232).
 3. Based on queued event driven framework.
 
@@ -37,3 +37,8 @@ SRS DG535
 Surelite I:
 
 1. Most common tasks are supported, but you have to put the laser into external control mode manually.
+
+Analog Discovery 
+
+1. AnalogIn and AnalogOut are supported. 
+2. Waveforms (Not part of this code) needs to be installed to run. (Due to dependency of dwf.dll)
