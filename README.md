@@ -1,6 +1,10 @@
 uic-instr.lib
 =============
 
+You need to sync this folder to you labview installation folder\instr.lib\. Then, LabVIEW will find these dependencies by itself. 
+
+
+=============
 This is a collection of various instrument drivers I wrote in the past. These are part of the dependencies of my other software. The library is licensed under LGPL v3. 
 
 Provided AS IS, use with you own risk.
