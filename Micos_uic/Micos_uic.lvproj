@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Name="Template - Generic.lvproj" Type="Project" LVVersion="12008004" URL="/&lt;instrlib&gt;/_Template - Generic/Template - Generic.lvproj">
+<Project Name="Template - Generic.lvproj" Type="Project" LVVersion="13008000" URL="/&lt;instrlib&gt;/_Template - Generic/Template - Generic.lvproj">
 	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="Instrument Driver" Type="Str">True</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
@@ -41,6 +41,12 @@
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
+			</Item>
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="GenericMotionCore.lvlib" Type="Library" URL="/&lt;instrlib&gt;/GenericMotionCore/GenericMotionCore.lvlib"/>
+			</Item>
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="ErrorLog_lib.lvlib" Type="Library" URL="/&lt;userlib&gt;/Utility/ErrorLog_lib.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
